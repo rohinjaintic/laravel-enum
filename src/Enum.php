@@ -104,7 +104,7 @@ abstract class Enum
      * @param string $value
      * @return string
      */
-    private static function getLocalizedDescription($value): ?string
+    private static function getLocalizedDescription($value): string
     {
         if (self::isLocalizable())
         {
